@@ -7,16 +7,16 @@ Es un ejemplo **demostrativo y didáctico**, ideal para entrevistas técnicas o 
 
 ---
 
-## 🔧 Hardware necesario
+##  Hardware necesario
 - Placa **NodeMCU ESP8266 (ESP-12E o similar)**  
 - (Opcional) Cable micro-USB para alimentación y programación  
 - (Opcional) Un LED externo con resistencia (220Ω) si quieres probar otro pin  
 
-> El proyecto funciona únicamente con el **LED azul interno** del NodeMCU.  
+> El proyecto funciona únicamente con el **LED azul interno** del NodeMCU(EN ESTE CASO).  
 
 ---
 
-## 💻 Funcionamiento del proyecto
+##  Funcionamiento del proyecto
 1. El ESP8266 crea un **Access Point (AP)** con:
    - SSID: `ESP8266_AP`
    - Contraseña: `12345678`
@@ -31,13 +31,13 @@ http://192.168.4.1
 
 ---
 
-## 📂 Archivos principales
+## Archivos principales
 - `ESP8266_LED_AP.ino` → Código fuente en Arduino IDE.  
 - `README.md` → Este archivo con la explicación del proyecto.  
 
 ---
 
-## 📜 Código destacado (HTML embebido)
+##  Código destacado (HTML embebido)
 La interfaz web está dentro del propio código del ESP8266 en formato **string**.  
 Ejemplo:
 
